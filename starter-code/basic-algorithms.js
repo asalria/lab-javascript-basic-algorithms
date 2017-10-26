@@ -20,7 +20,7 @@ else{
 }
 
 for(var i=0;i<hacker1.length;i++){
-    driver.push(hacker1[i] + "");
+    driver.push(hacker1[i].toUpperCase());
 }
 console.log.apply(console,driver);
 
@@ -42,7 +42,7 @@ else
 //Palindrome
 var palindrome = window.prompt("Please insert a palindrome","Palindrome");
 
-palindrome = palindrome.replace(/[^a-zA-Z0-9! ]+/g, "").toUpperCase;
+palindrome = palindrome.replace(/[^a-zA-Z0-9! ]+/g, "").toUpperCase();
 
 var isFalse = false;
 
