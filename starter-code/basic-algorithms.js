@@ -53,6 +53,9 @@ for(var j=0;j<palindrome.length-1;j++)
         isFalse = true;
     }
 }
+//mejor usamos algo que rompa el código para que no esté ahí infinitamente y ahorre memoria
+//podemos evitarnos if si igualamos directamente en la variable la expresión a evaluar
+//isFalse = palindrome[j] === palindrome[palindrome.length - j - 1];
 
 if(isFalse)
 {
